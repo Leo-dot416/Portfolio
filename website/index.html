@@ -8,30 +8,39 @@
   </head>
   <body>
     <header class="hero">
-      <h1>My Program Portfolio</h1>
-      <p>
-        A collection of programs that I have created to show off my skills and my
-        abilities.
-      </p>
+      <div class="hero-inner">
+        <h1>My Program Portfolio</h1>
+        <p class="tagline">Projects and code demonstrating skills in Java and Python.</p>
+        <p class="sub">Browse projects, view details, and open code on GitHub.</p>
+      </div>
     </header>
-
     <main class="content">
-      <section class="card">
-        <h2>Python Projects</h2>
-        <p>Space reserved for Python programs and problem-solving projects.</p>
-      </section>
+      <nav class="cards">
+        <a class="card-link" href="python.html" aria-label="Python projects">
+          <section class="card">
+            <h2>Python Projects</h2>
+            <p>Scripts, data projects and problem-solving programs written in Python.</p>
+          </section>
+        </a>
 
-      <section class="card">
-        <h2>Java Projects</h2>
-        <p>Space reserved for Java applications, OOP practice, and algorithms.</p>
-      </section>
+        <a class="card-link" href="java.html" aria-label="Java projects">
+          <section class="card">
+            <h2>Java Projects</h2>
+            <p>Object-oriented applications, algorithms, and Java practice projects.</p>
+          </section>
+        </a>
 
-      <section class="card">
-        <h2>More Coming Soon</h2>
-        <p>
-          This site will grow as new programs are added to this repository.
-        </p>
-      </section>
+        <section class="card muted">
+          <h2>Growing Collection</h2>
+          <p>More projects are added regularly — check back for updates.</p>
+        </section>
+      </nav>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>Hosted from this repository. View the source on <a href="https://github.com/Leo-dot416/Portfolio">GitHub</a>.</p>
+      </div>
+    </footer>
   </body>
 </html>

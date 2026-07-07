@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" preserveAspectRatio="none">
+  <defs>
+    <pattern id="diag" patternUnits="userSpaceOnUse" width="40" height="40">
+      <rect width="40" height="40" fill="transparent" />
+      <path d="M0 40 L40 0" stroke="#0b1220" stroke-opacity="0.03" stroke-width="1" />
+      <path d="M-10 30 L10 10" stroke="#0b1220" stroke-opacity="0.015" stroke-width="1" />
+      <path d="M30 50 L50 30" stroke="#0b1220" stroke-opacity="0.015" stroke-width="1" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#diag)" />
+</svg>
