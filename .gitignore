@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+ai_assistant/.venv/
+ai_assistant/.env
+venv/
+.env
+.env.*
+*.sqlite3
