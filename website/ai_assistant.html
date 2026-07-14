@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Python Projects — Portfolio</title>
+    <title>AI Assistant Projects — Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero-inner">
-        <h1>Python Projects</h1>
-        <p class="tagline">A list of Python programs in this repository.</p>
-        <img class="hero-illustration" alt="Python code" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=9f6d6c3b8d8b6b3c9a6f6d2f8a6d7c3b">
+        <h1>AI Assistant Projects</h1>
+        <p class="tagline">A list of AI Assistant files and experiments in this repository.</p>
+        <img class="hero-illustration" alt="AI assistant interface" src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=6f3e0f2a6f3d9d1b7e3f1f2f8c9d1d2a" />
       </div>
     </header>
 
     <main class="content">
       <div class="list-card card">
-        <p id="status">Loading Python projects…</p>
+        <p id="status">Loading AI Assistant projects…</p>
         <ul id="file-list"></ul>
         <p class="muted" id="hint">Links open on GitHub.</p>
       </div>
@@ -25,7 +25,7 @@
 
     <footer class="site-footer">
       <div class="footer-inner">
-        <a href="/">← Back to home</a>
+        <a href="index.html">← Back to home</a>
       </div>
     </footer>
 
@@ -33,7 +33,7 @@
       (function(){
         const owner = 'Leo-dot416';
         const repo = 'Portfolio';
-        const dir = 'python';
+        const dir = 'ai_assistant';
         const api = `https://api.github.com/repos/${owner}/${repo}/contents/${dir}`;
 
         function linkFor(item){
@@ -46,7 +46,7 @@
             const list = document.getElementById('file-list');
             const status = document.getElementById('status');
             if (!Array.isArray(data) || data.length === 0){
-              status.textContent = 'No Python projects found in the repository.';
+              status.textContent = 'No AI Assistant projects found in the repository.';
               return;
             }
             status.style.display = 'none';
