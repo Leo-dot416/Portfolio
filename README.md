@@ -6,8 +6,7 @@ It is organized as a growing personal portfolio where I can add projects in diff
 
 ## Repository Structure
 
-- `python/` — Python projects, scripts, and experiments.
-- `java/` — Java programs and exercises.
+- `AI_Assistant` — Project where the user can type in questions and an AI will answer the questions based on some knowledge given to it using a small database .
 - `website/` — A portfolio-style website to showcase completed and upcoming programs.
 
 ## Purpose
